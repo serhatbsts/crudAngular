@@ -29,7 +29,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
   providers: [
     {
       provide: 'apiUrl',
-      useValue: 'https://demo.limantech.com/cards/public/api'
+      useValue: 'https://localhost:8080'
     }
   ],
   bootstrap: [AppComponent]
